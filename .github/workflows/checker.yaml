@@ -1,0 +1,14 @@
+name: check-function
+on: push
+jobs:
+  checkfunction:
+    runs-on: ubuntu-latest
+    steps:
+      - name: initialization
+        run: echo "I am doing initialization now"
+
+  finalization:
+    runs-on: ubuntu-latest
+    steps:
+      - name: finalization
+        run: echo "I am doing finalization"
